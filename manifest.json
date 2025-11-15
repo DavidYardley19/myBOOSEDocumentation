@@ -1,0 +1,186 @@
+{
+  "source_base_path": "C:/Users/david/source/repos/ase-boose-assignment-DavidYardley19/BOOSEDocumentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppCanvas",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppCircle",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppCircle.yml\" sourcestartlinenumber=\"1\">Specific implementation of the circle command.\nThis is drawn on the canvas using a single integer parameter (radius)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppCommandFactory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppMoveTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppMoveTo",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppMoveTo.yml\" sourcestartlinenumber=\"1\">Custom MoveTo command for the application\nHandled through own command factory ( taking two params : x and y ) and moves drawing curser to that position</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppRect",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppRect.yml\" sourcestartlinenumber=\"1\">Custom Rectangle class to be used in the command factory.\nThis must be passed two sides as we are treating this purely as a rectangle.\nA square class can be made in the future which implements everything a rectangle does - but both side and height lengths will be equal.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.Form1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.Form1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
