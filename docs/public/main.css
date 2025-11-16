@@ -1,0 +1,4 @@
+/* Project-specific overrides (kept minimal) */
+.markdown.summary p { margin: 0 0 8px 0; }
+.typelist dt { font-weight: 600; margin: 8px 0 4px; }
+.typelist dd { margin: 0 0 8px 0; }
